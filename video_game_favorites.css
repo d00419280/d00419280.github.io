@@ -1,0 +1,104 @@
+header{
+    background-color:#142d4c;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius: 10px;
+}
+body{
+    background-color: #385170;
+}
+footer{
+    background-color:#142d4c;
+    color:#ececec;
+    height:30px; 
+    border-radius: 10px;
+}
+h1{
+    color:#ececec;
+}
+h3{
+    color:#ececec;
+    text-decoration:underline;
+}
+label{
+    color:#ececec;
+    text-align:center;
+}
+textarea{
+    height:50px;
+    width:200px
+}
+#grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding-top:25px;
+}
+
+#first-column{
+    text-align:center;
+}
+
+#last-column{
+    text-align:center;
+    padding-right:6px;
+}
+#input-area{
+    box-sizing:border-box;
+    background:rgb(159,211,199,.30);
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 10px;
+}
+li{
+    color:#ececec;
+    font-size:20px;
+    border:1px solid;
+    border-radius: 10px;
+    padding-bottom:3px;
+    text-align:left;
+    padding-left:3px;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+ul{
+    padding: 0 0 0 0;
+    list-style-type:circle;
+}
+#submit{
+    background-color:#142d4c;
+    color:#ececec;
+    padding: 8px 32px;
+}
+button{
+    background-color:#142d4c;
+    color:#ececec;
+}
+#edit-submit{
+    background-color:#142d4c;
+    color:#ececec;
+    padding: 8px 32px;
+}
+#registration-area{
+    box-sizing:border-box;
+    background:rgb(159,211,199,.30);
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius: 10px;
+    margin-right:5px;
+}
+#login-area{
+    box-sizing:border-box;
+    background:rgb(159,211,199,.30);
+    padding-top:80px;
+    padding-bottom:117px;
+    margin-bottom:45px;
+    margin-left:5px;
+    border-radius: 10px;
+}
+#registration-submit{
+    padding: 8px 32px;
+}
+#login-submit{
+    padding: 8px 32px;
+}

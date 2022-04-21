@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Game Favorites</title>
+    <link rel="stylesheet" href="video_game_favorites.css">
+</head>
+<header>
+    <h1>Video Game Favorites</h1>
+</header>
+<body>
+    <div id="grid-container">
+        <div id="first-column">
+
+            <div id="registration-area">
+                <h1>Registration</h1>
+                <h4 id="email-exists">Email already exists</h4>
+                <label for="registration-name">First Name</label><br>
+                <textarea id="registration-name" name="registration-name" placeholder="Write something.."></textarea><br>
+
+                <label for="registration-last-name">Last Name</label><br>
+                <textarea id="registration-last-name" placeholder="Write something.."></textarea><br>
+
+                <label for="registration-email">Email</label><br>
+                <textarea id="registration-email" placeholder="Write something.."></textarea><br>
+
+                <label for="registration-password">Password</label><br>
+                <textarea id="registration-password" placeholder="Write something.."></textarea><br>
+
+                <button id="registration-submit">Register</button>
+            </div>
+            
+            <div id="video-games-list-area">
+                <h3>Favorite Video Games</h3>
+                <ul id="video-game-list">
+                </ul>
+            </div>
+        </div>
+        <div id="last-column">
+
+            <div id="login-area">
+                <h1>Login</h1>
+                <h4 id="login-wrong">Email or password is wrong, try again</h4>
+                <label for="login-email">Email</label><br>
+                <textarea id="login-email" placeholder="Write something.."></textarea><br>
+
+                <label for="login-password">Password</label><br>
+                <textarea id="login-password" placeholder="Write something.."></textarea><br>
+
+                <button id="login-submit">Login</button>
+            </div>
+
+            <div id="input-area">
+                <h3 id="edit-title">EDIT MODE</h3>
+                <label for="favorite-video-games">Favorite Video Game</label><br>
+                <textarea id="favorite-video-games" name="favorite-video-games" placeholder="Write something.."></textarea><br>
+
+                <label for="favorite-video-character">Character from Game</label><br>
+                <textarea id="favorite-video-character" placeholder="Write something.."></textarea><br>
+                
+                <!-- achievment,rating,difficulty-->
+
+                <label for="favorite-video-achievment">Numbered Achievment from Game</label><br>
+                <textarea id="favorite-video-achievment" placeholder="Write something.."></textarea><br>
+
+                <label for="favorite-video-rating">Rating out of 10</label><br>
+                <textarea id="favorite-video-rating" placeholder="Write something.."></textarea><br>
+
+                <label for="favorite-video-difficulty">Difficulty out of 10</label><br>
+                <textarea id="favorite-video-difficulty" placeholder="Write something.."></textarea><br>
+
+                <button id="submit">Add Favorite</button>
+                <button id="edit-submit">Confirm Edit</button>
+            </div>
+        </div>
+    </div>
+    <script src="video_game_favorites.js"></script>
+</body>
+<footer>
+    <p></p>
+</footer>
+</html>
